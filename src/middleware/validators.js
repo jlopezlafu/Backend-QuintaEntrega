@@ -1,5 +1,5 @@
 import { ProductManager } from "../appmanagers/productManager.js";
-const path = "src/db/products.json";
+const path = "./src/db/products.json";
 const myProductManager = new ProductManager(path);
 
 const checkRequest = (req, res, next) => {

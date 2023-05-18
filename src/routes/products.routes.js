@@ -89,4 +89,3 @@ productRouter.delete("/:id", async (req, res) => {
         }
     }
 });
-
